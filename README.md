@@ -1,3 +1,26 @@
+# What is this?
+
+This is an extremely basic Next.js app. I created it to bootstrap the basic
+tech stack for our senior project: a Next.js app that uses Cloudscape
+components, TypeScript, and useSWR to make frontend development simple. We are
+definitely backend-inclined developers, so it is important to me that the
+frontend tech stack will not be a concern.
+
+# Usage
+
+Fork this repository and get working. There are some concerns I have with this,
+mainly that the source code is not all inside an src directory. When running
+the `create-next-app` command, I had to use an older version of the script to
+make it compatible with the Cloudscape components.
+
+# Notes
+
+I had to use an older version of `create-next-app` to make it compatible with
+the Cloudscape components. I also had to include
+`"@cloudscape-design/components"` and `"@cloudscape-design/component-toolkit"`
+in the `transpilePackages` list in `next.config.mjs` to get the Cloudscape
+components to work correctly.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
